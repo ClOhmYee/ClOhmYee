@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8DFD,50:6F6FE8,100:9D6FF0&height=200&section=header&text=Kyeong-Ho%20Lee&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer&descSize=20&descAlignY=60" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8DFD,50:6F6FE8,100:9D6FF0&height=200&section=header&text=ClOhmYee&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer&descSize=20&descAlignY=60" />
 
 <!-- Typing animation : 직무 지향 문구 -->
 <a href="https://github.com/ClOhmYee">
