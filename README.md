@@ -4,11 +4,11 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8DFD,50:6F6FE8,100:9D6FF0&height=200&section=header&text=Kyeong-Ho%20Lee&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%E2%80%93%20Java&descSize=20&descAlignY=60" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8DFD,50:6F6FE8,100:9D6FF0&height=200&section=header&text=Kyeong-Ho%20Lee&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer&descSize=20&descAlignY=60" />
 
 <!-- Typing animation : 직무 지향 문구 -->
 <a href="https://github.com/ClOhmYee">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6F6FE8&center=true&vCenter=true&width=540&lines=Java+Backend+Developer+%EB%A5%BC+%EC%A7%80%ED%96%A5%ED%95%A9%EB%8B%88%EB%8B%A4;%EB%B0%B0%EC%9B%80%EC%9D%84+%EC%A6%90%EA%B8%B0%EA%B3%A0+%EB%9D%9D%EA%B9%8C%EC%A7%80+%ED%8C%8C%EA%B3%A0%EB%93%9C%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90;%EB%B6%88%ED%8E%B8%ED%95%A8%EC%9D%84+%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94+%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC+%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Nanum+Gothic&weight=800&size=22&pause=1000&color=6F6FE8&center=true&vCenter=true&width=540&lines=%EB%B0%B0%EC%9B%80%EC%9D%84+%EC%A6%90%EA%B8%B0%EA%B3%A0+%EB%81%9D%EA%B9%8C%EC%A7%80+%ED%8C%8C%EA%B3%A0%EB%93%9C%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90;%EB%B6%88%ED%8E%B8%ED%95%A8%EC%9D%84+%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94+%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC+%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4" alt="typing" />
 </a>
 
 <br/>
