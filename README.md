@@ -28,12 +28,12 @@
 
 > **"배우면 배울수록 늘어나는 궁금증을 해결하는 과정에서 즐거움을 느낍니다."**
 
-일상의 불편함을 해소하는 서비스를 만들기 위해, 배운 지식을 직접 **계획하고 실행**하는 개발자 지망생입니다.
-새로운 기술 앞에서 머뭇거리기보다, 부딪히고 **트러블슈팅**하며 한 걸음씩 성장하는 것을 좋아합니다.
+**Java·Spring 기반 API를 구현하고, 데이터 정합성과 외부 연동의 실패 조건을 끝까지 확인하는 개발자입니다.**
+AI와 데이터를 서비스에 연결하면서 입력 품질, 시점의 일치, 재시작 후 복구까지 함께 살펴봅니다.
 
 - 🎓 **숭실대학교** 전자정보공학부 IT융합전공 졸업 · `GPA 4.05 / 4.5`
-- 🚀 삼성 청년 SW·AI 아카데미 **SSAFY 15기** Java 전공트랙 수료 중 (2026.01 ~ 2027.01)
-- 🎯 **Java** 기반 개발자를 목표로 역량을 다지는 중
+- 🚀 **삼성 청년 SW·AI 아카데미(SSAFY) 15기** · Java 전공트랙 1학기 수료, 전체 과정 진행 중
+- 🎯 **Java / Spring Boot** 기반 백엔드 개발자를 목표로 역량을 다지는 중
 - 🔍 작은 프로젝트라도 **"왜 이렇게 동작하는가"** 를 끝까지 파고드는 편입니다
 
 <br/>
@@ -50,9 +50,14 @@
 
 <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi&theme=dark" alt="backend" />
 
-**Infra & Tools**
+**Data & Messaging**
 
-<img src="https://skillicons.dev/icons?i=docker,linux,mysql,git,github&theme=dark" alt="infra" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,kafka&theme=dark" alt="PostgreSQL, MySQL, Kafka" />
+<a href="https://spark.apache.org/"><img src="https://raw.githubusercontent.com/LelouchFR/skill-icons/main/assets/spark-dark.svg" width="48" height="48" alt="Apache Spark" title="Spark Structured Streaming" /></a>
+
+**Environment & Tools**
+
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github&theme=dark" alt="Docker, Linux, Git, GitHub" />
 
 </div>
 
@@ -69,8 +74,8 @@
 | 구분 | 내용 | 비고 |
 |:---:|:---|:---|
 | 🎓 **학력** | 숭실대학교 전자정보공학부 IT융합전공 졸업 | GPA **4.05 / 4.5** |
-| 📚 **교육** | 삼성 청년 SW·AI 아카데미 **SSAFY 15기** Java 전공트랙 | 2026.01 ~ 2027.01, 1,725시간 |
-| 🏅 **수상** | 전자정보공학부 졸업작품 경진대회 **학부장상** | 2025.11 |
+| 📚 **교육** | 삼성 청년 SW·AI 아카데미(SSAFY) 15기 | Java 전공트랙 1학기 **925시간 수료** · 전체 **1,725시간 과정 진행 중**<br>2026.01 ~ 2027.01 종료 예정 |
+| 🏅 **수상** | 전자정보공학부 경진대회 **학부장상** | 2025.11 |
 | 🏅 **수상** | 학과(부) **우등상** | 2026.02 |
 
 ![정보처리기사](https://img.shields.io/badge/정보처리기사-Engineer-007396?style=for-the-badge)
@@ -91,56 +96,33 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🌊 SpaceNet8 모델 경량화
-> 🏆 **졸업작품 · 학부장상 수상**
+### 📡 WikiPulse
 
-위성 영상 홍수 탐지 딥러닝 모델 경량화 연구.
-**MobileNetV2 교체 · 지식 증류 · 계층적 샘플링**
-을 적용해 에포크당 학습 시간 **약 43% 단축**.
+> 위키백과의 관심 변화에서 이슈를 찾고, 관련 미국 상장 종목을 근거와 함께 연결하는 서비스.
 
-`Python` `Docker` `Linux` `Deep Learning`
+- AI 매칭 입력·검증 규칙을 실험으로 정리했습니다.
+- **Spring 이력 조회 API 2개**와 화면 연동을 구현했습니다.
+- 과거 시점 정합성을 위해 미래 AI 결과의 과거 재사용을 차단했습니다.
+- LIVE 수집의 cursor 저장·중복 처리·재시작 복구를 보완했습니다.
 
-</td>
-<td width="50%" valign="top">
+`Java` `Spring Boot` `PostgreSQL` `Python` `Kafka` `Spark`
 
-### 📆 Mini-Calendar-Portable
-> 🔐 **OAuth 2.0 보안 트러블슈팅**
-
-브라우저 없이 Google Calendar를 확인하는
-경량 Portable 프로그램. 인증 정보를
-`cryptography` 로 **암호화 저장**하여 보안 강화.
-
-`Python` `OAuth 2.0` `Google API`
-
-[`Repository →`](https://github.com/ClOhmYee/Mini-Calendar-Portable)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎲 Minecraft-Server-Manager
-> 🧩 **사용자 친화적 UI 설계**
-
-복잡한 설정 없이 버튼 몇 번으로 게임 서버를
-구동하는 프로그램. 설정 영속화 문제를
-파일 저장 방식으로 직접 해결.
-
-`Python` `Batch`
-
-[`Repository →`](https://github.com/ClOhmYee/Minecraft-Server-Manager)
+[`Repository →`](https://github.com/ClOhmYee/WikiPulse)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔢 MNIST 숫자·색 분류
-> 📊 **데이터 증강 최적화**
+### ☂️ 빌리산 (Billisan)
 
-회전·이동·모자이크 증강 기법을 수치로
-비교 분석하여 최적값을 도출. 데이터의
-중요성을 체감한 팀 프로젝트.
+> 얼굴 인증과 AI 검수를 연결한 우산 대여·반납 서비스.
 
-`Python` `Machine Learning`
+- 팀원으로 **Jetson 기반 Edge AI 파손 판정 추론 파이프라인**을 설계·구현했습니다.
+- **Spring 기반 관리자·사용자 앱 API**를 설계·구현했습니다.
+- 촬영 조건과 전처리 불일치를 개선해, 배치 검증에서 **정상 우산 오탐률 4.3%** 를 확인했습니다.
+
+`Java` `Spring Boot` `Python` `YOLO` `PatchCore` `ONNX`
+
+[`Repository →`](https://github.com/ClOhmYee/Billisan)
 
 </td>
 </tr>
@@ -148,31 +130,74 @@
 <td width="50%" valign="top">
 
 ### 🗺️ HaruRoute
-> 🤖 **RAG 기반 AI 여행 루트 추천**
 
-TourAPI 관광지 데이터를 RAG로 활용해 AI 추천부터
-경로 추가까지 자동화하는 여행 루트 추천 서비스.
-AI 서버 설계와 외부 API **장애 격리**를 전담.
+> 관광지 추천부터 경로 추가까지 연결하는 AI 여행 루트 추천 서비스.
 
-`FastAPI` `RAG` `ChromaDB` `Spring`
+- **FastAPI AI 서버**를 전담했습니다.
+- TourAPI 관광지의 공식 명칭을 활용한 **RAG**를 구성했습니다.
+- Java·Spring 요금 API 연동에 타임아웃과 예외 처리를 적용해 장애 영향을 분리했습니다.
 
-[`Demo →`](https://youtu.be/OM3lZZPyaRo)
+`Python` `FastAPI` `RAG` `ChromaDB` `Java` `Spring Boot`
+
+[`Repository →`](https://github.com/HaruRoute)
 
 </td>
 <td width="50%" valign="top">
 
-### 🎫 빌리산 (Billisan)
-> 🔍 **Edge AI 얼굴인식 우산 대여 서비스**
+### 🌊 SpaceNet8 모델 경량화
 
-키오스크 얼굴인식으로 본인 확인 후 슬롯 단위로
-우산을 대여·반납하는 서비스. Jetson에서 얼굴 매칭·
-우산 탐지·파손 판정 파이프라인 전담, **오탐률 4.3%** 로 개선.
+> 위성 영상 홍수 탐지 모델의 학습 효율을 개선한 개인 졸업 연구. 학부장상 수상.
 
-`YOLOv8` `PatchCore` `InsightFace` `Jetson` `Spring`
+- **MobileNetV2 교체**로 에포크당 학습 시간을 **15분 → 8.5분, 약 43% 단축**했습니다.
+- 계층적 샘플링과 지식 증류를 적용해, 경량화로 낮아진 IoU를 일부 회복했습니다.
+
+`Python` `Deep Learning` `Docker` `Linux`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎲 Minecraft-Server-Manager
+
+> 버튼으로 서버 파일 설치와 설정, Minecraft 서버 구동을 돕는 데스크톱 프로그램.
+
+- 기획부터 GUI와 실행 흐름까지 직접 구현해 공개 배포하고, 친구들에게 제공했습니다.
+- 종료 후 설정값이 사라지는 문제를 **파일 저장·재로딩**으로 해결했습니다.
+
+`Python` `wxPython` `Batch`
+
+[`Repository →`](https://github.com/ClOhmYee/Minecraft-Server-Manager)
+
+</td>
+<td width="50%" valign="top">
+
+### 📆 Mini-Calendar-Portable
+
+> Google Calendar 일정을 확인하는 휴대용 데스크톱 프로그램.
+
+- **OAuth 2.0 로그인**과 날짜별 일정 조회를 구현했습니다.
+- 토큰·인증 파일을 `cryptography`로 암호화 저장했습니다.
+- 인증 정보의 평문 원본을 삭제하는 흐름을 추가했습니다.
+
+`Python` `PyQt5` `OAuth 2.0` `Google Calendar API`
+
+[`Repository →`](https://github.com/ClOhmYee/Mini-Calendar-Portable)
 
 </td>
 </tr>
 </table>
+
+<details>
+<summary>🔢 Other Experience — MNIST 숫자·색 분류</summary>
+
+회전·이동·모자이크 데이터 증강을 비교한 팀 프로젝트.
+다중 출력 분류에서 부분 정답을 반영하기 위해
+자카드 유사도를 평가 기준으로 제안했습니다.
+
+`Python` `Machine Learning`
+
+</details>
 
 <br/>
 
